@@ -32,6 +32,7 @@
 		7B9FF38F1C2B064100A91218 /* netError@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B9FF38B1C2B064100A91218 /* netError@2x.png */; };
 		7B9FF3901C2B064100A91218 /* successHint@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B9FF38C1C2B064100A91218 /* successHint@2x.png */; };
 		7B9FF3911C2B064100A91218 /* warnHint@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B9FF38D1C2B064100A91218 /* warnHint@2x.png */; };
+		7B9FF3931C2BA56C00A91218 /* registerLogin.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B9FF3921C2BA56C00A91218 /* registerLogin.png */; };
 		7BE9717D1C2A92180051FCDD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BE9717C1C2A92180051FCDD /* main.m */; };
 		7BE971801C2A92180051FCDD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BE9717F1C2A92180051FCDD /* AppDelegate.m */; };
 		7BE971881C2A92180051FCDD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7BE971871C2A92180051FCDD /* Assets.xcassets */; };
@@ -93,6 +94,7 @@
 		7B9FF38B1C2B064100A91218 /* netError@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "netError@2x.png"; sourceTree = "<group>"; };
 		7B9FF38C1C2B064100A91218 /* successHint@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "successHint@2x.png"; sourceTree = "<group>"; };
 		7B9FF38D1C2B064100A91218 /* warnHint@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "warnHint@2x.png"; sourceTree = "<group>"; };
+		7B9FF3921C2BA56C00A91218 /* registerLogin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = registerLogin.png; sourceTree = "<group>"; };
 		7BE971781C2A92180051FCDD /* YueXin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YueXin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BE9717C1C2A92180051FCDD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7BE9717E1C2A92180051FCDD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -216,6 +218,7 @@
 		7B9FF36A1C2AB25600A91218 /* resources */ = {
 			isa = PBXGroup;
 			children = (
+				7B9FF3921C2BA56C00A91218 /* registerLogin.png */,
 				7B9FF38A1C2B064100A91218 /* failHint@2x.png */,
 				7B9FF38B1C2B064100A91218 /* netError@2x.png */,
 				7B9FF38C1C2B064100A91218 /* successHint@2x.png */,
@@ -458,6 +461,7 @@
 				7B9FF35A1C2AAA7F00A91218 /* WASDiscoverViewController.xib in Resources */,
 				7B9FF3551C2AAA5C00A91218 /* WASMessageCenterViewController.xib in Resources */,
 				7B9FF38E1C2B064100A91218 /* failHint@2x.png in Resources */,
+				7B9FF3931C2BA56C00A91218 /* registerLogin.png in Resources */,
 				7B9FF3781C2AB2B000A91218 /* meSt@2x.png in Resources */,
 				7B9FF38F1C2B064100A91218 /* netError@2x.png in Resources */,
 				7B9FF3761C2AB2B000A91218 /* message@2x.png in Resources */,

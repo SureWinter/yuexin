@@ -14,14 +14,29 @@
                         <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="registerLogin.png" translatesAutoresizingMaskIntoConstraints="NO" id="PuO-CA-rae">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="PuO-CA-rae" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="MvY-ag-jOO"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="PuO-CA-rae" secondAttribute="bottom" id="Uqc-NO-RkE"/>
+                            <constraint firstAttribute="trailing" secondItem="PuO-CA-rae" secondAttribute="trailing" id="YHM-4B-9jl"/>
+                            <constraint firstItem="PuO-CA-rae" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="gw6-hy-XXh"/>
+                        </constraints>
                     </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="53" y="375"/>
+            <point key="canvasLocation" x="236" y="364"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="registerLogin.png" width="640" height="1136"/>
+    </resources>
 </document>

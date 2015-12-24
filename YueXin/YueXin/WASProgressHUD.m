@@ -25,7 +25,7 @@
 
 +(void)showSuccess:(NSString *)str
 {
-    [SVProgressHUD setBackgroundColor:[UIColor lightGrayColor]];
+    [SVProgressHUD setBackgroundColor:[UIColor colorWithRed:114/255.0 green:114/255.0 blue:114/255.0 alpha:0.7]];
     [SVProgressHUD showImage:[UIImage imageNamed:@"successHint.png"] status:str];
 }
 
