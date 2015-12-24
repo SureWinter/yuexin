@@ -8,6 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		6A9AB96E3BB4A48BD1B9C656 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C3D0B3EF2AC64EF1EFC9184 /* libPods.a */; };
+		7B9FF34B1C2AA96C00A91218 /* WASNaviViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B9FF34A1C2AA96C00A91218 /* WASNaviViewController.m */; };
+		7B9FF34F1C2AAA3C00A91218 /* WASHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B9FF34D1C2AAA3C00A91218 /* WASHomeViewController.m */; };
+		7B9FF3501C2AAA3C00A91218 /* WASHomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7B9FF34E1C2AAA3C00A91218 /* WASHomeViewController.xib */; };
+		7B9FF3541C2AAA5C00A91218 /* WASMessageCenterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B9FF3521C2AAA5C00A91218 /* WASMessageCenterViewController.m */; };
+		7B9FF3551C2AAA5C00A91218 /* WASMessageCenterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7B9FF3531C2AAA5C00A91218 /* WASMessageCenterViewController.xib */; };
+		7B9FF3591C2AAA7F00A91218 /* WASDiscoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B9FF3571C2AAA7F00A91218 /* WASDiscoverViewController.m */; };
+		7B9FF35A1C2AAA7F00A91218 /* WASDiscoverViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7B9FF3581C2AAA7F00A91218 /* WASDiscoverViewController.xib */; };
+		7B9FF35E1C2AAAB700A91218 /* WASProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B9FF35C1C2AAAB700A91218 /* WASProfileViewController.m */; };
+		7B9FF35F1C2AAAB700A91218 /* WASProfileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7B9FF35D1C2AAAB700A91218 /* WASProfileViewController.xib */; };
+		7B9FF3731C2AB2B000A91218 /* match@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B9FF36B1C2AB2B000A91218 /* match@2x.png */; };
+		7B9FF3741C2AB2B000A91218 /* matchSt@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B9FF36C1C2AB2B000A91218 /* matchSt@2x.png */; };
+		7B9FF3751C2AB2B000A91218 /* me@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B9FF36D1C2AB2B000A91218 /* me@2x.png */; };
+		7B9FF3761C2AB2B000A91218 /* message@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B9FF36E1C2AB2B000A91218 /* message@2x.png */; };
+		7B9FF3771C2AB2B000A91218 /* messageSt@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B9FF36F1C2AB2B000A91218 /* messageSt@2x.png */; };
+		7B9FF3781C2AB2B000A91218 /* meSt@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B9FF3701C2AB2B000A91218 /* meSt@2x.png */; };
+		7B9FF37D1C2AB44B00A91218 /* found@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B9FF37B1C2AB44B00A91218 /* found@2x.png */; };
+		7B9FF37E1C2AB44B00A91218 /* foundSt@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B9FF37C1C2AB44B00A91218 /* foundSt@2x.png */; };
+		7B9FF3831C2AF45E00A91218 /* WASLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B9FF3811C2AF45E00A91218 /* WASLoginViewController.m */; };
+		7B9FF3841C2AF45E00A91218 /* WASLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7B9FF3821C2AF45E00A91218 /* WASLoginViewController.xib */; };
+		7B9FF3891C2B01D200A91218 /* WASProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B9FF3881C2B01D200A91218 /* WASProgressHUD.m */; };
+		7B9FF38E1C2B064100A91218 /* failHint@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B9FF38A1C2B064100A91218 /* failHint@2x.png */; };
+		7B9FF38F1C2B064100A91218 /* netError@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B9FF38B1C2B064100A91218 /* netError@2x.png */; };
+		7B9FF3901C2B064100A91218 /* successHint@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B9FF38C1C2B064100A91218 /* successHint@2x.png */; };
+		7B9FF3911C2B064100A91218 /* warnHint@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B9FF38D1C2B064100A91218 /* warnHint@2x.png */; };
 		7BE9717D1C2A92180051FCDD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BE9717C1C2A92180051FCDD /* main.m */; };
 		7BE971801C2A92180051FCDD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BE9717F1C2A92180051FCDD /* AppDelegate.m */; };
 		7BE971881C2A92180051FCDD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7BE971871C2A92180051FCDD /* Assets.xcassets */; };
@@ -37,6 +61,38 @@
 /* Begin PBXFileReference section */
 		1C3D0B3EF2AC64EF1EFC9184 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		481AEE88E29F8FD8D8C82AEE /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		7B9FF3491C2AA96C00A91218 /* WASNaviViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WASNaviViewController.h; sourceTree = "<group>"; };
+		7B9FF34A1C2AA96C00A91218 /* WASNaviViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WASNaviViewController.m; sourceTree = "<group>"; };
+		7B9FF34C1C2AAA3C00A91218 /* WASHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WASHomeViewController.h; sourceTree = "<group>"; };
+		7B9FF34D1C2AAA3C00A91218 /* WASHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WASHomeViewController.m; sourceTree = "<group>"; };
+		7B9FF34E1C2AAA3C00A91218 /* WASHomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WASHomeViewController.xib; sourceTree = "<group>"; };
+		7B9FF3511C2AAA5C00A91218 /* WASMessageCenterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WASMessageCenterViewController.h; sourceTree = "<group>"; };
+		7B9FF3521C2AAA5C00A91218 /* WASMessageCenterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WASMessageCenterViewController.m; sourceTree = "<group>"; };
+		7B9FF3531C2AAA5C00A91218 /* WASMessageCenterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WASMessageCenterViewController.xib; sourceTree = "<group>"; };
+		7B9FF3561C2AAA7F00A91218 /* WASDiscoverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WASDiscoverViewController.h; sourceTree = "<group>"; };
+		7B9FF3571C2AAA7F00A91218 /* WASDiscoverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WASDiscoverViewController.m; sourceTree = "<group>"; };
+		7B9FF3581C2AAA7F00A91218 /* WASDiscoverViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WASDiscoverViewController.xib; sourceTree = "<group>"; };
+		7B9FF35B1C2AAAB700A91218 /* WASProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WASProfileViewController.h; sourceTree = "<group>"; };
+		7B9FF35C1C2AAAB700A91218 /* WASProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WASProfileViewController.m; sourceTree = "<group>"; };
+		7B9FF35D1C2AAAB700A91218 /* WASProfileViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WASProfileViewController.xib; sourceTree = "<group>"; };
+		7B9FF3691C2AAEA000A91218 /* define.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = define.h; sourceTree = "<group>"; };
+		7B9FF36B1C2AB2B000A91218 /* match@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "match@2x.png"; sourceTree = "<group>"; };
+		7B9FF36C1C2AB2B000A91218 /* matchSt@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "matchSt@2x.png"; sourceTree = "<group>"; };
+		7B9FF36D1C2AB2B000A91218 /* me@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "me@2x.png"; sourceTree = "<group>"; };
+		7B9FF36E1C2AB2B000A91218 /* message@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "message@2x.png"; sourceTree = "<group>"; };
+		7B9FF36F1C2AB2B000A91218 /* messageSt@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "messageSt@2x.png"; sourceTree = "<group>"; };
+		7B9FF3701C2AB2B000A91218 /* meSt@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "meSt@2x.png"; sourceTree = "<group>"; };
+		7B9FF37B1C2AB44B00A91218 /* found@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "found@2x.png"; sourceTree = "<group>"; };
+		7B9FF37C1C2AB44B00A91218 /* foundSt@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "foundSt@2x.png"; sourceTree = "<group>"; };
+		7B9FF3801C2AF45E00A91218 /* WASLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WASLoginViewController.h; sourceTree = "<group>"; };
+		7B9FF3811C2AF45E00A91218 /* WASLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WASLoginViewController.m; sourceTree = "<group>"; };
+		7B9FF3821C2AF45E00A91218 /* WASLoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WASLoginViewController.xib; sourceTree = "<group>"; };
+		7B9FF3871C2B01D200A91218 /* WASProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WASProgressHUD.h; sourceTree = "<group>"; };
+		7B9FF3881C2B01D200A91218 /* WASProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WASProgressHUD.m; sourceTree = "<group>"; };
+		7B9FF38A1C2B064100A91218 /* failHint@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "failHint@2x.png"; sourceTree = "<group>"; };
+		7B9FF38B1C2B064100A91218 /* netError@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "netError@2x.png"; sourceTree = "<group>"; };
+		7B9FF38C1C2B064100A91218 /* successHint@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "successHint@2x.png"; sourceTree = "<group>"; };
+		7B9FF38D1C2B064100A91218 /* warnHint@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "warnHint@2x.png"; sourceTree = "<group>"; };
 		7BE971781C2A92180051FCDD /* YueXin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YueXin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BE9717C1C2A92180051FCDD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7BE9717E1C2A92180051FCDD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -89,6 +145,125 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		7B9FF3601C2AAACC00A91218 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				7BE9717E1C2A92180051FCDD /* AppDelegate.h */,
+				7BE9717F1C2A92180051FCDD /* AppDelegate.m */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		7B9FF3611C2AAAE400A91218 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				7BE971AE1C2A9FA80051FCDD /* WASMainViewController.h */,
+				7BE971AF1C2A9FA80051FCDD /* WASMainViewController.m */,
+				7B9FF3491C2AA96C00A91218 /* WASNaviViewController.h */,
+				7B9FF34A1C2AA96C00A91218 /* WASNaviViewController.m */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		7B9FF3621C2AAAF500A91218 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				7B9FF34C1C2AAA3C00A91218 /* WASHomeViewController.h */,
+				7B9FF34D1C2AAA3C00A91218 /* WASHomeViewController.m */,
+				7B9FF34E1C2AAA3C00A91218 /* WASHomeViewController.xib */,
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
+		7B9FF3631C2AAAFF00A91218 /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				7B9FF3511C2AAA5C00A91218 /* WASMessageCenterViewController.h */,
+				7B9FF3521C2AAA5C00A91218 /* WASMessageCenterViewController.m */,
+				7B9FF3531C2AAA5C00A91218 /* WASMessageCenterViewController.xib */,
+			);
+			name = Message;
+			sourceTree = "<group>";
+		};
+		7B9FF3641C2AAB1A00A91218 /* Discover */ = {
+			isa = PBXGroup;
+			children = (
+				7B9FF3561C2AAA7F00A91218 /* WASDiscoverViewController.h */,
+				7B9FF3571C2AAA7F00A91218 /* WASDiscoverViewController.m */,
+				7B9FF3581C2AAA7F00A91218 /* WASDiscoverViewController.xib */,
+			);
+			name = Discover;
+			sourceTree = "<group>";
+		};
+		7B9FF3651C2AAB2A00A91218 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				7B9FF35B1C2AAAB700A91218 /* WASProfileViewController.h */,
+				7B9FF35C1C2AAAB700A91218 /* WASProfileViewController.m */,
+				7B9FF35D1C2AAAB700A91218 /* WASProfileViewController.xib */,
+			);
+			name = Profile;
+			sourceTree = "<group>";
+		};
+		7B9FF3681C2AAE4700A91218 /* Constant */ = {
+			isa = PBXGroup;
+			children = (
+				7B9FF3691C2AAEA000A91218 /* define.h */,
+			);
+			name = Constant;
+			sourceTree = "<group>";
+		};
+		7B9FF36A1C2AB25600A91218 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				7B9FF38A1C2B064100A91218 /* failHint@2x.png */,
+				7B9FF38B1C2B064100A91218 /* netError@2x.png */,
+				7B9FF38C1C2B064100A91218 /* successHint@2x.png */,
+				7B9FF38D1C2B064100A91218 /* warnHint@2x.png */,
+				7B9FF37B1C2AB44B00A91218 /* found@2x.png */,
+				7B9FF37C1C2AB44B00A91218 /* foundSt@2x.png */,
+				7B9FF36B1C2AB2B000A91218 /* match@2x.png */,
+				7B9FF36C1C2AB2B000A91218 /* matchSt@2x.png */,
+				7B9FF36D1C2AB2B000A91218 /* me@2x.png */,
+				7B9FF36E1C2AB2B000A91218 /* message@2x.png */,
+				7B9FF36F1C2AB2B000A91218 /* messageSt@2x.png */,
+				7B9FF3701C2AB2B000A91218 /* meSt@2x.png */,
+			);
+			name = resources;
+			sourceTree = "<group>";
+		};
+		7B9FF37F1C2AF42400A91218 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				7B9FF3801C2AF45E00A91218 /* WASLoginViewController.h */,
+				7B9FF3811C2AF45E00A91218 /* WASLoginViewController.m */,
+				7B9FF3821C2AF45E00A91218 /* WASLoginViewController.xib */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+		7B9FF3851C2B00C800A91218 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				7B9FF37F1C2AF42400A91218 /* Login */,
+				7B9FF3621C2AAAF500A91218 /* Home */,
+				7B9FF3611C2AAAE400A91218 /* Main */,
+				7B9FF3631C2AAAFF00A91218 /* Message */,
+				7B9FF3641C2AAB1A00A91218 /* Discover */,
+				7B9FF3651C2AAB2A00A91218 /* Profile */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		7B9FF3861C2B00E900A91218 /* UILib */ = {
+			isa = PBXGroup;
+			children = (
+				7B9FF3871C2B01D200A91218 /* WASProgressHUD.h */,
+				7B9FF3881C2B01D200A91218 /* WASProgressHUD.m */,
+			);
+			name = UILib;
+			sourceTree = "<group>";
+		};
 		7BE9716F1C2A92180051FCDD = {
 			isa = PBXGroup;
 			children = (
@@ -114,10 +289,10 @@
 		7BE9717A1C2A92180051FCDD /* YueXin */ = {
 			isa = PBXGroup;
 			children = (
-				7BE9717E1C2A92180051FCDD /* AppDelegate.h */,
-				7BE9717F1C2A92180051FCDD /* AppDelegate.m */,
-				7BE971AE1C2A9FA80051FCDD /* WASMainViewController.h */,
-				7BE971AF1C2A9FA80051FCDD /* WASMainViewController.m */,
+				7B9FF3861C2B00E900A91218 /* UILib */,
+				7B9FF3851C2B00C800A91218 /* UI */,
+				7B9FF3681C2AAE4700A91218 /* Constant */,
+				7B9FF3601C2AAACC00A91218 /* AppDelegate */,
 				7BE9717B1C2A92180051FCDD /* Supporting Files */,
 			);
 			path = YueXin;
@@ -126,6 +301,7 @@
 		7BE9717B1C2A92180051FCDD /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				7B9FF36A1C2AB25600A91218 /* resources */,
 				7BE971891C2A92180051FCDD /* LaunchScreen.storyboard */,
 				7BE971871C2A92180051FCDD /* Assets.xcassets */,
 				7BE9718C1C2A92180051FCDD /* Info.plist */,
@@ -268,8 +444,25 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B9FF3841C2AF45E00A91218 /* WASLoginViewController.xib in Resources */,
+				7B9FF3751C2AB2B000A91218 /* me@2x.png in Resources */,
+				7B9FF3731C2AB2B000A91218 /* match@2x.png in Resources */,
+				7B9FF37E1C2AB44B00A91218 /* foundSt@2x.png in Resources */,
+				7B9FF35F1C2AAAB700A91218 /* WASProfileViewController.xib in Resources */,
+				7B9FF3501C2AAA3C00A91218 /* WASHomeViewController.xib in Resources */,
+				7B9FF3771C2AB2B000A91218 /* messageSt@2x.png in Resources */,
+				7B9FF3911C2B064100A91218 /* warnHint@2x.png in Resources */,
+				7B9FF3901C2B064100A91218 /* successHint@2x.png in Resources */,
 				7BE9718B1C2A92180051FCDD /* LaunchScreen.storyboard in Resources */,
 				7BE971881C2A92180051FCDD /* Assets.xcassets in Resources */,
+				7B9FF35A1C2AAA7F00A91218 /* WASDiscoverViewController.xib in Resources */,
+				7B9FF3551C2AAA5C00A91218 /* WASMessageCenterViewController.xib in Resources */,
+				7B9FF38E1C2B064100A91218 /* failHint@2x.png in Resources */,
+				7B9FF3781C2AB2B000A91218 /* meSt@2x.png in Resources */,
+				7B9FF38F1C2B064100A91218 /* netError@2x.png in Resources */,
+				7B9FF3761C2AB2B000A91218 /* message@2x.png in Resources */,
+				7B9FF37D1C2AB44B00A91218 /* found@2x.png in Resources */,
+				7B9FF3741C2AB2B000A91218 /* matchSt@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -342,8 +535,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B9FF35E1C2AAAB700A91218 /* WASProfileViewController.m in Sources */,
+				7B9FF3541C2AAA5C00A91218 /* WASMessageCenterViewController.m in Sources */,
+				7B9FF34F1C2AAA3C00A91218 /* WASHomeViewController.m in Sources */,
+				7B9FF3591C2AAA7F00A91218 /* WASDiscoverViewController.m in Sources */,
+				7B9FF3831C2AF45E00A91218 /* WASLoginViewController.m in Sources */,
 				7BE971801C2A92180051FCDD /* AppDelegate.m in Sources */,
 				7BE971B01C2A9FA80051FCDD /* WASMainViewController.m in Sources */,
+				7B9FF34B1C2AA96C00A91218 /* WASNaviViewController.m in Sources */,
+				7B9FF3891C2B01D200A91218 /* WASProgressHUD.m in Sources */,
 				7BE9717D1C2A92180051FCDD /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -476,10 +676,12 @@
 			baseConfigurationReference = 96BDA861AC07CB427D693F84 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/YueXin/define.h";
 				INFOPLIST_FILE = YueXin/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = yue.YueXin;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/**";
 			};
 			name = Debug;
 		};
@@ -488,10 +690,12 @@
 			baseConfigurationReference = 481AEE88E29F8FD8D8C82AEE /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/YueXin/define.h";
 				INFOPLIST_FILE = YueXin/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = yue.YueXin;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/**";
 			};
 			name = Release;
 		};
