@@ -8,6 +8,7 @@
 
 #import "WASLoginViewController.h"
 #import "WASProgressHUD.h"
+#import "NSString+Valid.h"
 
 @interface WASLoginViewController ()
 @property (weak, nonatomic) IBOutlet UITextField *username;
@@ -27,33 +28,57 @@
     // Dispose of any resources that can be recreated.
 }
 - (IBAction)registerAction:(id)sender {
-    [WASProgressHUD showSuccess:@"注册成功"];
+    if (![self isEmpty]) {
+        [self.view endEditing:YES];
+        if ([self.username.text isChinese]) {
 
-//    [[EaseMob sharedInstance].chatManager asyncRegisterNewAccount:self.username.text password:self.password.text withCompletion:^(NSString *username, NSString *password, EMError *error) {
-//        if (!error) {
-//            XXLog(@"注册成功");
-//            [WASProgressHUD showSuccess:@"注册成功"];
-//            
-//        }
-//    } onQueue:nil];
+            [WASProgressHUD showError:@"用户名不能为中文"];
+            
+            return;
+        }
+        
+        [[EaseMob sharedInstance].chatManager asyncRegisterNewAccount:self.username.text password:self.password.text withCompletion:^(NSString *username, NSString *password, EMError *error) {
+            if (!error) {
+                XXLog(@"注册成功");
+                [WASProgressHUD showSuccess:@"注册成功"];
+                
+            }
+        } onQueue:nil];
+        
+    }
     
 }
 - (IBAction)loginAction:(id)sender {
-    [[EaseMob sharedInstance].chatManager asyncLoginWithUsername:self.username.text password:self.password.text completion:^(NSDictionary *loginInfo, EMError *error) {
-        if (!error && loginInfo) {
-            NSLog(@"登陆成功");
+    if (![self isEmpty]) {
+        [self.view endEditing:YES];
+        if ([self.username.text isChinese]) {
+            
+            [WASProgressHUD showError:@"用户名不能为中文"];
+            
+            return;
         }
-    } onQueue:nil];
+        [[EaseMob sharedInstance].chatManager asyncLoginWithUsername:self.username.text password:self.password.text completion:^(NSDictionary *loginInfo, EMError *error) {
+            if (!error && loginInfo) {
+                NSLog(@"登陆成功");
+                    // 设置自动登录
+                    [[EaseMob sharedInstance].chatManager setIsAutoLoginEnabled:YES];
+                
+            }
+        } onQueue:nil];
+    }
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+//判断账号和密码是否为空
+- (BOOL)isEmpty{
+    BOOL ret = NO;
+    NSString *username = self.username.text;
+    NSString *password = self.password.text;
+    if (username.length == 0 || password.length == 0) {
+        ret = YES;
+        [WASProgressHUD showError:@"账号密码不能为空"];
+    }
+    
+    return ret;
 }
-*/
 
 @end

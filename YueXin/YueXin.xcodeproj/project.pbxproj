@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		6A9AB96E3BB4A48BD1B9C656 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C3D0B3EF2AC64EF1EFC9184 /* libPods.a */; };
+		7B03F69D1C323CB300DE50BA /* NSString+Valid.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B03F69C1C323CB300DE50BA /* NSString+Valid.m */; };
+		7B03F69F1C326A5B00DE50BA /* usericon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B03F69E1C326A5B00DE50BA /* usericon@2x.png */; };
+		7B03F6A31C326EB000DE50BA /* WASBaseService.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B03F6A21C326EB000DE50BA /* WASBaseService.m */; };
 		7B9FF34B1C2AA96C00A91218 /* WASNaviViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B9FF34A1C2AA96C00A91218 /* WASNaviViewController.m */; };
 		7B9FF34F1C2AAA3C00A91218 /* WASHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B9FF34D1C2AAA3C00A91218 /* WASHomeViewController.m */; };
 		7B9FF3501C2AAA3C00A91218 /* WASHomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7B9FF34E1C2AAA3C00A91218 /* WASHomeViewController.xib */; };
@@ -62,6 +65,11 @@
 /* Begin PBXFileReference section */
 		1C3D0B3EF2AC64EF1EFC9184 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		481AEE88E29F8FD8D8C82AEE /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		7B03F69B1C323CB200DE50BA /* NSString+Valid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Valid.h"; sourceTree = "<group>"; };
+		7B03F69C1C323CB300DE50BA /* NSString+Valid.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Valid.m"; sourceTree = "<group>"; };
+		7B03F69E1C326A5B00DE50BA /* usericon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "usericon@2x.png"; sourceTree = "<group>"; };
+		7B03F6A11C326EB000DE50BA /* WASBaseService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WASBaseService.h; sourceTree = "<group>"; };
+		7B03F6A21C326EB000DE50BA /* WASBaseService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WASBaseService.m; sourceTree = "<group>"; };
 		7B9FF3491C2AA96C00A91218 /* WASNaviViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WASNaviViewController.h; sourceTree = "<group>"; };
 		7B9FF34A1C2AA96C00A91218 /* WASNaviViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WASNaviViewController.m; sourceTree = "<group>"; };
 		7B9FF34C1C2AAA3C00A91218 /* WASHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WASHomeViewController.h; sourceTree = "<group>"; };
@@ -147,6 +155,24 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		7B03F69A1C323C9800DE50BA /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				7B03F69B1C323CB200DE50BA /* NSString+Valid.h */,
+				7B03F69C1C323CB300DE50BA /* NSString+Valid.m */,
+			);
+			name = Category;
+			sourceTree = "<group>";
+		};
+		7B03F6A01C326E6500DE50BA /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				7B03F6A11C326EB000DE50BA /* WASBaseService.h */,
+				7B03F6A21C326EB000DE50BA /* WASBaseService.m */,
+			);
+			name = Service;
+			sourceTree = "<group>";
+		};
 		7B9FF3601C2AAACC00A91218 /* AppDelegate */ = {
 			isa = PBXGroup;
 			children = (
@@ -218,6 +244,7 @@
 		7B9FF36A1C2AB25600A91218 /* resources */ = {
 			isa = PBXGroup;
 			children = (
+				7B03F69E1C326A5B00DE50BA /* usericon@2x.png */,
 				7B9FF3921C2BA56C00A91218 /* registerLogin.png */,
 				7B9FF38A1C2B064100A91218 /* failHint@2x.png */,
 				7B9FF38B1C2B064100A91218 /* netError@2x.png */,
@@ -292,6 +319,8 @@
 		7BE9717A1C2A92180051FCDD /* YueXin */ = {
 			isa = PBXGroup;
 			children = (
+				7B03F6A01C326E6500DE50BA /* Service */,
+				7B03F69A1C323C9800DE50BA /* Category */,
 				7B9FF3861C2B00E900A91218 /* UILib */,
 				7B9FF3851C2B00C800A91218 /* UI */,
 				7B9FF3681C2AAE4700A91218 /* Constant */,
@@ -457,6 +486,7 @@
 				7B9FF3911C2B064100A91218 /* warnHint@2x.png in Resources */,
 				7B9FF3901C2B064100A91218 /* successHint@2x.png in Resources */,
 				7BE9718B1C2A92180051FCDD /* LaunchScreen.storyboard in Resources */,
+				7B03F69F1C326A5B00DE50BA /* usericon@2x.png in Resources */,
 				7BE971881C2A92180051FCDD /* Assets.xcassets in Resources */,
 				7B9FF35A1C2AAA7F00A91218 /* WASDiscoverViewController.xib in Resources */,
 				7B9FF3551C2AAA5C00A91218 /* WASMessageCenterViewController.xib in Resources */,
@@ -541,9 +571,11 @@
 			files = (
 				7B9FF35E1C2AAAB700A91218 /* WASProfileViewController.m in Sources */,
 				7B9FF3541C2AAA5C00A91218 /* WASMessageCenterViewController.m in Sources */,
+				7B03F6A31C326EB000DE50BA /* WASBaseService.m in Sources */,
 				7B9FF34F1C2AAA3C00A91218 /* WASHomeViewController.m in Sources */,
 				7B9FF3591C2AAA7F00A91218 /* WASDiscoverViewController.m in Sources */,
 				7B9FF3831C2AF45E00A91218 /* WASLoginViewController.m in Sources */,
+				7B03F69D1C323CB300DE50BA /* NSString+Valid.m in Sources */,
 				7BE971801C2A92180051FCDD /* AppDelegate.m in Sources */,
 				7BE971B01C2A9FA80051FCDD /* WASMainViewController.m in Sources */,
 				7B9FF34B1C2AA96C00A91218 /* WASNaviViewController.m in Sources */,

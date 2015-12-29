@@ -7,6 +7,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="WASProfileViewController">
             <connections>
+                <outlet property="tableView" destination="sZb-V0-rcy" id="p1v-k6-z4F"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -15,8 +16,16 @@
             <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" scrollEnabled="NO" style="grouped" separatorStyle="default" rowHeight="44" sectionHeaderHeight="18" sectionFooterHeight="18" translatesAutoresizingMaskIntoConstraints="NO" id="sZb-V0-rcy">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                    <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="m73-4t-9i4"/>
+                        <outlet property="delegate" destination="-1" id="bEs-Rk-3VF"/>
+                    </connections>
+                </tableView>
                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="29N-DG-fK3">
-                    <rect key="frame" x="93" y="102" width="105" height="30"/>
+                    <rect key="frame" x="107" y="269" width="105" height="30"/>
                     <state key="normal" title="注册/登陆"/>
                     <connections>
                         <action selector="registerOrLoginAction:" destination="-1" eventType="touchUpInside" id="gph-PW-6WP"/>
@@ -24,6 +33,12 @@
                 </button>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="sZb-V0-rcy" secondAttribute="bottom" id="CWD-eU-ojU"/>
+                <constraint firstItem="sZb-V0-rcy" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="G74-IA-ABU"/>
+                <constraint firstItem="sZb-V0-rcy" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="NwX-E9-oJx"/>
+                <constraint firstAttribute="trailing" secondItem="sZb-V0-rcy" secondAttribute="trailing" id="wAP-Bo-c9J"/>
+            </constraints>
             <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
         </view>
     </objects>
