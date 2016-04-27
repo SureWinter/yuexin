@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
@@ -7,6 +7,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="WASProfileViewController">
             <connections>
+                <outlet property="loginOutButton" destination="Z6R-w5-6OS" id="XIM-q8-QfK"/>
                 <outlet property="tableView" destination="sZb-V0-rcy" id="p1v-k6-z4F"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
@@ -31,15 +32,32 @@
                         <action selector="registerOrLoginAction:" destination="-1" eventType="touchUpInside" id="gph-PW-6WP"/>
                     </connections>
                 </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Z6R-w5-6OS">
+                    <rect key="frame" x="55" y="464" width="210" height="35"/>
+                    <color key="backgroundColor" red="0.96470588235294119" green="0.32549019607843138" blue="0.30196078431372547" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="210" id="N8y-w7-UA5"/>
+                        <constraint firstAttribute="height" constant="35" id="ZWl-0P-ndZ"/>
+                    </constraints>
+                    <state key="normal" title="退出当前账号">
+                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="loginOutButtonClick:" destination="-1" eventType="touchUpInside" id="IKY-j8-cve"/>
+                    </connections>
+                </button>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
             <constraints>
                 <constraint firstAttribute="bottom" secondItem="sZb-V0-rcy" secondAttribute="bottom" id="CWD-eU-ojU"/>
                 <constraint firstItem="sZb-V0-rcy" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="G74-IA-ABU"/>
                 <constraint firstItem="sZb-V0-rcy" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="NwX-E9-oJx"/>
+                <constraint firstItem="Z6R-w5-6OS" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="mRo-gl-9Bu"/>
+                <constraint firstAttribute="bottom" secondItem="Z6R-w5-6OS" secondAttribute="bottom" constant="69" id="njD-mJ-Eqn"/>
                 <constraint firstAttribute="trailing" secondItem="sZb-V0-rcy" secondAttribute="trailing" id="wAP-Bo-c9J"/>
             </constraints>
             <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+            <point key="canvasLocation" x="359" y="264"/>
         </view>
     </objects>
 </document>

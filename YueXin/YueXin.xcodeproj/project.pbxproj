@@ -36,6 +36,7 @@
 		7B9FF3901C2B064100A91218 /* successHint@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B9FF38C1C2B064100A91218 /* successHint@2x.png */; };
 		7B9FF3911C2B064100A91218 /* warnHint@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B9FF38D1C2B064100A91218 /* warnHint@2x.png */; };
 		7B9FF3931C2BA56C00A91218 /* registerLogin.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B9FF3921C2BA56C00A91218 /* registerLogin.png */; };
+		7BD0FF4F1CD107DE003ADFEC /* WASColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BD0FF4E1CD107DE003ADFEC /* WASColor.m */; };
 		7BE9717D1C2A92180051FCDD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BE9717C1C2A92180051FCDD /* main.m */; };
 		7BE971801C2A92180051FCDD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BE9717F1C2A92180051FCDD /* AppDelegate.m */; };
 		7BE971881C2A92180051FCDD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7BE971871C2A92180051FCDD /* Assets.xcassets */; };
@@ -103,6 +104,8 @@
 		7B9FF38C1C2B064100A91218 /* successHint@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "successHint@2x.png"; sourceTree = "<group>"; };
 		7B9FF38D1C2B064100A91218 /* warnHint@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "warnHint@2x.png"; sourceTree = "<group>"; };
 		7B9FF3921C2BA56C00A91218 /* registerLogin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = registerLogin.png; sourceTree = "<group>"; };
+		7BD0FF4D1CD107DE003ADFEC /* WASColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WASColor.h; sourceTree = "<group>"; };
+		7BD0FF4E1CD107DE003ADFEC /* WASColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WASColor.m; sourceTree = "<group>"; };
 		7BE971781C2A92180051FCDD /* YueXin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YueXin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BE9717C1C2A92180051FCDD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7BE9717E1C2A92180051FCDD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -237,6 +240,8 @@
 			isa = PBXGroup;
 			children = (
 				7B9FF3691C2AAEA000A91218 /* define.h */,
+				7BD0FF4D1CD107DE003ADFEC /* WASColor.h */,
+				7BD0FF4E1CD107DE003ADFEC /* WASColor.m */,
 			);
 			name = Constant;
 			sourceTree = "<group>";
@@ -570,6 +575,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7B9FF35E1C2AAAB700A91218 /* WASProfileViewController.m in Sources */,
+				7BD0FF4F1CD107DE003ADFEC /* WASColor.m in Sources */,
 				7B9FF3541C2AAA5C00A91218 /* WASMessageCenterViewController.m in Sources */,
 				7B03F6A31C326EB000DE50BA /* WASBaseService.m in Sources */,
 				7B9FF34F1C2AAA3C00A91218 /* WASHomeViewController.m in Sources */,
@@ -714,6 +720,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/YueXin/define.h";
 				INFOPLIST_FILE = YueXin/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = yue.YueXin;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -728,6 +735,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/YueXin/define.h";
 				INFOPLIST_FILE = YueXin/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = yue.YueXin;
 				PRODUCT_NAME = "$(TARGET_NAME)";
