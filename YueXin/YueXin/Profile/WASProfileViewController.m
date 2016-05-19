@@ -39,7 +39,10 @@
 - (IBAction)registerOrLoginAction:(id)sender {
     XXLog(@"registerOrLoginAction");
     WASLoginViewController *login = [[WASLoginViewController alloc] initWithNibName:@"WASLoginViewController" bundle:nil];
-    [self.navigationController pushViewController:login animated:YES];
+//    [self.navigationController pushViewController:login animated:YES];
+    [self.navigationController presentViewController:login animated:YES completion:^{
+        
+    }];
 }
 
 - (IBAction)loginOutButtonClick:(id)sender {

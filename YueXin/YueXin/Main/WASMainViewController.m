@@ -12,6 +12,7 @@
 #import "WASMessageCenterViewController.h"
 #import "WASDiscoverViewController.h"
 #import "WASProfileViewController.h"
+#import "WASLoginViewController.h"
 
 @interface WASMainViewController ()
 
@@ -24,7 +25,7 @@
     [super viewDidLoad];
     
     // 1.初始化子控制器
-    WASHomeViewController *home = [[WASHomeViewController alloc] init];
+    WASLoginViewController *home = [[WASLoginViewController alloc] init];
     [self addChildVc:home title:@"首页" image:@"match" selectedImage:@"matchSt"];
     
     WASMessageCenterViewController *messageCenter = [[WASMessageCenterViewController alloc] init];
