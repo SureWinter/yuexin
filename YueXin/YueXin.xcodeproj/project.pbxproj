@@ -20,7 +20,6 @@
 		7B307F881CEDB4BC00ECEB2F /* WASDiscoverViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7B307F861CEDB4BC00ECEB2F /* WASDiscoverViewController.xib */; };
 		7B307F8D1CEDB4E700ECEB2F /* WASProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B307F8B1CEDB4E700ECEB2F /* WASProfileViewController.m */; };
 		7B307F8E1CEDB4E700ECEB2F /* WASProfileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7B307F8C1CEDB4E700ECEB2F /* WASProfileViewController.xib */; };
-		7B307F931CEDB51100ECEB2F /* WASColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B307F921CEDB51100ECEB2F /* WASColor.m */; };
 		7B307F9A1CEDB54F00ECEB2F /* NSString+Valid.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B307F961CEDB54F00ECEB2F /* NSString+Valid.m */; };
 		7B307F9B1CEDB54F00ECEB2F /* WASBaseService.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B307F991CEDB54F00ECEB2F /* WASBaseService.m */; };
 		7B307F9F1CEDB59E00ECEB2F /* WASProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B307F9E1CEDB59E00ECEB2F /* WASProgressHUD.m */; };
@@ -41,6 +40,8 @@
 		7B307FC11CEDB60300ECEB2F /* successHint@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B307FB01CEDB60300ECEB2F /* successHint@2x.png */; };
 		7B307FC21CEDB60300ECEB2F /* usericon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B307FB11CEDB60300ECEB2F /* usericon@2x.png */; };
 		7B307FC31CEDB60300ECEB2F /* warnHint@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B307FB21CEDB60300ECEB2F /* warnHint@2x.png */; };
+		7B307FCC1CEDBD0200ECEB2F /* WASColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B307FCB1CEDBD0200ECEB2F /* WASColor.m */; };
+		7B307FD01CEDC95D00ECEB2F /* WASLoginTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B307FCF1CEDC95D00ECEB2F /* WASLoginTextField.m */; };
 		7BE9717D1C2A92180051FCDD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BE9717C1C2A92180051FCDD /* main.m */; };
 		7BE971801C2A92180051FCDD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BE9717F1C2A92180051FCDD /* AppDelegate.m */; };
 		7BE971961C2A92180051FCDD /* YueXinTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BE971951C2A92180051FCDD /* YueXinTests.m */; };
@@ -86,8 +87,6 @@
 		7B307F8A1CEDB4E700ECEB2F /* WASProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WASProfileViewController.h; sourceTree = "<group>"; };
 		7B307F8B1CEDB4E700ECEB2F /* WASProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WASProfileViewController.m; sourceTree = "<group>"; };
 		7B307F8C1CEDB4E700ECEB2F /* WASProfileViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WASProfileViewController.xib; sourceTree = "<group>"; };
-		7B307F911CEDB51100ECEB2F /* WASColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WASColor.h; sourceTree = "<group>"; };
-		7B307F921CEDB51100ECEB2F /* WASColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WASColor.m; sourceTree = "<group>"; };
 		7B307F951CEDB54F00ECEB2F /* NSString+Valid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Valid.h"; sourceTree = "<group>"; };
 		7B307F961CEDB54F00ECEB2F /* NSString+Valid.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Valid.m"; sourceTree = "<group>"; };
 		7B307F981CEDB54F00ECEB2F /* WASBaseService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WASBaseService.h; sourceTree = "<group>"; };
@@ -111,7 +110,11 @@
 		7B307FB01CEDB60300ECEB2F /* successHint@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "successHint@2x.png"; sourceTree = "<group>"; };
 		7B307FB11CEDB60300ECEB2F /* usericon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "usericon@2x.png"; sourceTree = "<group>"; };
 		7B307FB21CEDB60300ECEB2F /* warnHint@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "warnHint@2x.png"; sourceTree = "<group>"; };
-		7B307FC41CEDB6AC00ECEB2F /* define.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = define.h; path = ../Constant/define.h; sourceTree = "<group>"; };
+		7B307FC91CEDBD0200ECEB2F /* define.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = define.h; sourceTree = "<group>"; };
+		7B307FCA1CEDBD0200ECEB2F /* WASColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WASColor.h; sourceTree = "<group>"; };
+		7B307FCB1CEDBD0200ECEB2F /* WASColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WASColor.m; sourceTree = "<group>"; };
+		7B307FCE1CEDC95D00ECEB2F /* WASLoginTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WASLoginTextField.h; sourceTree = "<group>"; };
+		7B307FCF1CEDC95D00ECEB2F /* WASLoginTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WASLoginTextField.m; sourceTree = "<group>"; };
 		7BE971781C2A92180051FCDD /* YueXin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YueXin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BE9717C1C2A92180051FCDD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7BE9717E1C2A92180051FCDD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -163,6 +166,8 @@
 		7B307F691CEDB3C700ECEB2F /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				7B307FD11CEDC98500ECEB2F /* LoginButton */,
+				7B307FCD1CEDC95D00ECEB2F /* LoginTextField */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -228,15 +233,6 @@
 			path = Profile;
 			sourceTree = "<group>";
 		};
-		7B307F8F1CEDB51100ECEB2F /* Constant */ = {
-			isa = PBXGroup;
-			children = (
-				7B307F911CEDB51100ECEB2F /* WASColor.h */,
-				7B307F921CEDB51100ECEB2F /* WASColor.m */,
-			);
-			path = Constant;
-			sourceTree = "<group>";
-		};
 		7B307F941CEDB54F00ECEB2F /* Category */ = {
 			isa = PBXGroup;
 			children = (
@@ -249,7 +245,6 @@
 		7B307F971CEDB54F00ECEB2F /* Service */ = {
 			isa = PBXGroup;
 			children = (
-				7B307FC41CEDB6AC00ECEB2F /* define.h */,
 				7B307F981CEDB54F00ECEB2F /* WASBaseService.h */,
 				7B307F991CEDB54F00ECEB2F /* WASBaseService.m */,
 			);
@@ -289,6 +284,32 @@
 			path = resources;
 			sourceTree = "<group>";
 		};
+		7B307FC81CEDBD0200ECEB2F /* Constant */ = {
+			isa = PBXGroup;
+			children = (
+				7B307FC91CEDBD0200ECEB2F /* define.h */,
+				7B307FCA1CEDBD0200ECEB2F /* WASColor.h */,
+				7B307FCB1CEDBD0200ECEB2F /* WASColor.m */,
+			);
+			path = Constant;
+			sourceTree = "<group>";
+		};
+		7B307FCD1CEDC95D00ECEB2F /* LoginTextField */ = {
+			isa = PBXGroup;
+			children = (
+				7B307FCE1CEDC95D00ECEB2F /* WASLoginTextField.h */,
+				7B307FCF1CEDC95D00ECEB2F /* WASLoginTextField.m */,
+			);
+			path = LoginTextField;
+			sourceTree = "<group>";
+		};
+		7B307FD11CEDC98500ECEB2F /* LoginButton */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = LoginButton;
+			sourceTree = "<group>";
+		};
 		7B9FF3601C2AAACC00A91218 /* AppDelegate */ = {
 			isa = PBXGroup;
 			children = (
@@ -301,6 +322,7 @@
 		7B9FF3851C2B00C800A91218 /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				7B307FC81CEDBD0200ECEB2F /* Constant */,
 				7B307F891CEDB4E700ECEB2F /* Profile */,
 				7B307F831CEDB4BC00ECEB2F /* Discover */,
 				7B307F7D1CEDB49700ECEB2F /* Message */,
@@ -340,7 +362,6 @@
 				7B307F9C1CEDB59E00ECEB2F /* UILib */,
 				7B307F941CEDB54F00ECEB2F /* Category */,
 				7B307F971CEDB54F00ECEB2F /* Service */,
-				7B307F8F1CEDB51100ECEB2F /* Constant */,
 				7B9FF3851C2B00C800A91218 /* UI */,
 				7B9FF3601C2AAACC00A91218 /* AppDelegate */,
 				7BE9717B1C2A92180051FCDD /* Supporting Files */,
@@ -587,16 +608,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				7B307F7B1CEDB45F00ECEB2F /* WASMainViewController.m in Sources */,
-				7B307F931CEDB51100ECEB2F /* WASColor.m in Sources */,
 				7B307F871CEDB4BC00ECEB2F /* WASDiscoverViewController.m in Sources */,
 				7B307F7C1CEDB45F00ECEB2F /* WASNaviViewController.m in Sources */,
 				7B307F741CEDB42B00ECEB2F /* WASHomeViewController.m in Sources */,
 				7B307F811CEDB49700ECEB2F /* WASMessageCenterViewController.m in Sources */,
+				7B307FCC1CEDBD0200ECEB2F /* WASColor.m in Sources */,
 				7B307F9B1CEDB54F00ECEB2F /* WASBaseService.m in Sources */,
 				7B307F8D1CEDB4E700ECEB2F /* WASProfileViewController.m in Sources */,
 				7B307F6E1CEDB3FF00ECEB2F /* WASLoginViewController.m in Sources */,
 				7BE971801C2A92180051FCDD /* AppDelegate.m in Sources */,
 				7B307F9F1CEDB59E00ECEB2F /* WASProgressHUD.m in Sources */,
+				7B307FD01CEDC95D00ECEB2F /* WASLoginTextField.m in Sources */,
 				7B307F9A1CEDB54F00ECEB2F /* NSString+Valid.m in Sources */,
 				7BE9717D1C2A92180051FCDD /* main.m in Sources */,
 			);
@@ -730,7 +752,7 @@
 			baseConfigurationReference = 96BDA861AC07CB427D693F84 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				GCC_PREFIX_HEADER = "$(SRCROOT)/YueXin/define.h";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/YueXin/Constant/define.h";
 				INFOPLIST_FILE = YueXin/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -745,7 +767,7 @@
 			baseConfigurationReference = 481AEE88E29F8FD8D8C82AEE /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				GCC_PREFIX_HEADER = "$(SRCROOT)/YueXin/define.h";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/YueXin/Constant/define.h";
 				INFOPLIST_FILE = YueXin/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
