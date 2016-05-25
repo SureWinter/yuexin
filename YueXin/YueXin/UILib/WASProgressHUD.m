@@ -31,6 +31,7 @@
 
 +(void)showError:(NSString *)str
 {
+    [SVProgressHUD setBackgroundColor:[UIColor colorWithRed:114/255.0 green:114/255.0 blue:114/255.0 alpha:0.7]];
     [SVProgressHUD showImage:[UIImage imageNamed:@"failHint.png"] status:str];
 }
 

@@ -11,6 +11,7 @@
 #import "NSString+Valid.h"
 #import <MediaPlayer/MediaPlayer.h>
 #import "WASLoginTextField.h"
+#import "WASLoginButton.h"
 
 @interface WASLoginViewController ()
 @property (strong, nonatomic)  WASLoginTextField *username;
@@ -36,14 +37,23 @@
 {
     _username = [[WASLoginTextField alloc] initLoginTextFieldWithPlaceholder:@"Username"];
     _password = [[WASLoginTextField alloc] initLoginTextFieldWithPlaceholder:@"Password"];
+    WASLoginButton *loginButton = [[WASLoginButton alloc] initLoginButtonWithButtonTitle:@"登录"];
+    WASLoginButton *registerButton = [[WASLoginButton alloc] initLoginButtonWithButtonTitle:@"注册"];
+    [loginButton addTarget:self action:@selector(loginAction:) forControlEvents:UIControlEventTouchUpInside];
+    [registerButton addTarget:self action:@selector(registerAction:) forControlEvents:UIControlEventTouchUpInside];
     _username.bounds = CGRectMake(0, 0,kScreenW-50, 35);
     _username.center = CGPointMake(kScreenW/2, 141);
     _password.bounds = CGRectMake(0, 0,kScreenW-50, 35);
     _password.center = CGPointMake(kScreenW/2, 220);
+    loginButton.bounds = CGRectMake(0, 0, kScreenW-50, 35);
+    loginButton.center = CGPointMake(kScreenW/2, 300);
+    registerButton.bounds = CGRectMake(0, 0, kScreenW-50, 35);
+    registerButton.center = CGPointMake(kScreenW/2, 345);
     [self.view addSubview:_username];
     [self.view addSubview:_password];
+    [self.view addSubview:loginButton];
+    [self.view addSubview:registerButton];
     [_password setSecureTextEntry:YES];
-    
 }
 
 

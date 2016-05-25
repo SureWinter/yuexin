@@ -42,6 +42,7 @@
 		7B307FC31CEDB60300ECEB2F /* warnHint@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B307FB21CEDB60300ECEB2F /* warnHint@2x.png */; };
 		7B307FCC1CEDBD0200ECEB2F /* WASColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B307FCB1CEDBD0200ECEB2F /* WASColor.m */; };
 		7B307FD01CEDC95D00ECEB2F /* WASLoginTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B307FCF1CEDC95D00ECEB2F /* WASLoginTextField.m */; };
+		7B307FD41CEDCB1900ECEB2F /* WASLoginButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B307FD31CEDCB1900ECEB2F /* WASLoginButton.m */; };
 		7BE9717D1C2A92180051FCDD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BE9717C1C2A92180051FCDD /* main.m */; };
 		7BE971801C2A92180051FCDD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BE9717F1C2A92180051FCDD /* AppDelegate.m */; };
 		7BE971961C2A92180051FCDD /* YueXinTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BE971951C2A92180051FCDD /* YueXinTests.m */; };
@@ -115,6 +116,8 @@
 		7B307FCB1CEDBD0200ECEB2F /* WASColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WASColor.m; sourceTree = "<group>"; };
 		7B307FCE1CEDC95D00ECEB2F /* WASLoginTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WASLoginTextField.h; sourceTree = "<group>"; };
 		7B307FCF1CEDC95D00ECEB2F /* WASLoginTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WASLoginTextField.m; sourceTree = "<group>"; };
+		7B307FD21CEDCB1900ECEB2F /* WASLoginButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WASLoginButton.h; sourceTree = "<group>"; };
+		7B307FD31CEDCB1900ECEB2F /* WASLoginButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WASLoginButton.m; sourceTree = "<group>"; };
 		7BE971781C2A92180051FCDD /* YueXin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YueXin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BE9717C1C2A92180051FCDD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7BE9717E1C2A92180051FCDD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -306,6 +309,8 @@
 		7B307FD11CEDC98500ECEB2F /* LoginButton */ = {
 			isa = PBXGroup;
 			children = (
+				7B307FD21CEDCB1900ECEB2F /* WASLoginButton.h */,
+				7B307FD31CEDCB1900ECEB2F /* WASLoginButton.m */,
 			);
 			path = LoginButton;
 			sourceTree = "<group>";
@@ -618,6 +623,7 @@
 				7B307F6E1CEDB3FF00ECEB2F /* WASLoginViewController.m in Sources */,
 				7BE971801C2A92180051FCDD /* AppDelegate.m in Sources */,
 				7B307F9F1CEDB59E00ECEB2F /* WASProgressHUD.m in Sources */,
+				7B307FD41CEDCB1900ECEB2F /* WASLoginButton.m in Sources */,
 				7B307FD01CEDC95D00ECEB2F /* WASLoginTextField.m in Sources */,
 				7B307F9A1CEDB54F00ECEB2F /* NSString+Valid.m in Sources */,
 				7BE9717D1C2A92180051FCDD /* main.m in Sources */,

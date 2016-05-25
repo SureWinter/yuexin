@@ -25,7 +25,7 @@
     [super viewDidLoad];
     
     // 1.初始化子控制器
-    WASLoginViewController *home = [[WASLoginViewController alloc] init];
+    WASHomeViewController *home = [[WASHomeViewController alloc] init];
     [self addChildVc:home title:@"首页" image:@"match" selectedImage:@"matchSt"];
     
     WASMessageCenterViewController *messageCenter = [[WASMessageCenterViewController alloc] init];
